@@ -1,0 +1,35 @@
+{
+    "season_Profiles":
+    {
+        "Winter":
+        {
+            "Effects":
+            {
+            "color_tweaks":
+                {"example": 0.4},
+            "lighting_tweaks":
+                {"example": 0.69},
+            "gameplay_tweaks":
+                {"example": 0.7}
+            },
+            "weather_matrix": 
+            [
+                {
+                "currentWeather": "Sunny",
+                "matrices":
+                    [
+                    {"weatheroption": "Clear", "weatherChance": 0.5}
+                    ]
+                },
+                {
+                "currentWeather": "Rainy",
+                "matrices":
+                    [
+                    {"weatheroption": "Rainy", "weatherChance": 0.5}
+                    ]
+                }
+            ]
+            
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "weather_profiles":
+    {
+        "Sunny":
+        {
+            "effects": {
+                "color_tweaks": 
+                { "example": 0.4 },
+                "lighting_tweaks": 
+                { "example": 0.69 },
+                "gameplay_tweaks": 
+                { "example": 0.7 }
+            },
+                    "subWeatherID": "SolarFlare",
+                    "subWeatherChance": 0.2,
+                    "overrides":{
+                        "color_tweaks":
+                        {"exampleOverride": 0.5}
+                    }
+        },
+        "Rainy":
+        {
+            "effects": {
+                    "color_tweaks": 
+                    { "example": 0.4 },
+                    "lighting_tweaks": 
+                    { "example": 0.69 },
+                    "gameplay_tweaks": 
+                    { "example": 0.7 }
+                },
+                        "subWeatherID": "Thundestorm",
+                        "subWeatherChance": 0.2,
+                        "overrides":{
+                            "color_tweaks":
+                            {"exampleOverride": 0.5}
+                        }
+        }
+    }
+}
